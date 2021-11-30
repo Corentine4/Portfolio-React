@@ -3,7 +3,7 @@ import ProgressBar from './ProgressBar';
 
 class Languages extends Component {
     
-    // store values ​​dynamically
+    // Store values ​​dynamically
     state = {
         languages : [
             {id: 1, value: "HTML5", xp:2},
