@@ -6,9 +6,12 @@ class Languages extends Component {
     // Store values ​​dynamically
     state = {
         languages : [
-            {id: 1, value: "HTML5", xp:2},
-            {id: 2, value: "CSS3", xp:2},
-            {id: 3, value: "Javascript", xp:2}
+            {id: 1, value: "CSS3", xp:2},
+            {id: 2, value: "SASS", xp:2},
+            {id: 3, value: "Bootstrap", xp:2},
+            {id: 4, value: "Javascript", xp:2},
+            {id: 5, value: "React", xp:2},
+            {id: 6, value: "Bases de Php", xp:2}
         ],
         frameworks : [
             {id: 1, value: "Sass", xp:2},
@@ -23,8 +26,16 @@ class Languages extends Component {
 
         return (
             <div className="languagesFrameworks">
-                <ProgressBar/>
-                <ProgressBar/>
+                <ProgressBar
+                    languages={languages}
+                    title="Languages"
+                    className="languageDisplay"
+                />
+                <ProgressBar
+                    languages={frameworks}
+                    title="Frameworks et bibliothèques"
+                    className="frameworksDisplay"
+                />
             </div>
         );
     }

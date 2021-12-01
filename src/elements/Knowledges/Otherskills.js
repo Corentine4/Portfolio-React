@@ -7,28 +7,22 @@ const Otherskills = () => {
             <div className="list">
                 <ul>
                     <li>
-                        <i class="far fa-check-circle"></i> Adobe Photoshop
+                        <i class="fas fa-check"></i> Adobe Photoshop
                     </li>
                     <li>
-                        <i class="far fa-check-circle"></i> Adobe Illustrator
+                        <i class="fas fa-check"></i> Adobe Illustrator
                     </li>
                     <li>
-                        <i class="far fa-check-circle"></i> Adobe Indesign
+                        <i class="fas fa-check"></i> Adobe Indesign
                     </li>
                     <li>
-                        <i class="far fa-check-circle"></i> Adobe XD
+                        <i class="fas fa-check"></i> Adobe XD
                     </li>
                     <li>
-                        <i class="far fa-check-circle"></i> Git
+                        <i class="fas fa-check"></i> Anglais intermédiaire
                     </li>
                     <li>
-                        <i class="far fa-check-circle"></i> Wordpress
-                    </li>
-                    <li>
-                        <i class="far fa-check-circle"></i> Anglais intermédiaire
-                    </li>
-                    <li>
-                        <i class="far fa-check-circle"></i> Modélisation 3D
+                        <i class="fas fa-check"></i> Modélisation 3D
                     </li>
                 </ul>
                 <ul>

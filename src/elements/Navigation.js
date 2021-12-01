@@ -7,10 +7,10 @@ const Navigation = () => {
         <div className="Sidebar">
  
             <div className="id">
-                <div className="idContent">
-                    <img src="photo.jpg" alt="Profil"/>
-                    <h3>Corentine Renuart</h3>
-                </div>
+                    <img src={"images/CorentineRenuart.png"} alt="Auteur de" width="175rem" />
+                    <div className="idContent">
+                        <h3>Corentine Renuart</h3>
+                    </div>
             </div>
  
             <div className="Navigation">
@@ -28,6 +28,12 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li>
+                        <NavLink exact to="/" activeClassName="navActive">
+                            <i className="fas fa-hiking"></i>
+                            <span>Parcours</span>
+                        </NavLink>
+                    </li>
+                    <li>
                         <NavLink exact to="/portfolio" activeClassName="navActive">
                             <i className="fas fa-book-open"></i>
                             <span>Portfolio</span>
@@ -35,8 +41,14 @@ const Navigation = () => {
                     </li>
                     <li>
                         <NavLink exact to="/contact" activeClassName="navActive">
-                            <i className="fas fa-phone"></i>
+                            <i class="fas fa-phone-alt"></i>
                             <span>Contact</span>
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink exact to="/" activeClassName="navActive">
+                            <i className="fas fa-user"></i>
+                            <span>À propos</span>
                         </NavLink>
                     </li>
                 </ul>

@@ -1,5 +1,9 @@
 @import './settings'; // Always first
+
+// Elements
 @import './elements/navigation';
+@import './elements/knowledges';
+
 // Pages
 @import './pages/contact';
 @import './pages/home';

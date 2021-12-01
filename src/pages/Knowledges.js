@@ -19,9 +19,7 @@ const knowledges = () => {
                     <Otherskills/>
                     <Hobbys/>
                 </div>
-
             </div>
-
         </div>
     );
 };
