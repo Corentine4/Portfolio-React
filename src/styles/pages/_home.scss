@@ -4,7 +4,7 @@
     box-shadow: $box-shadow-1, $interior-box-shadow;
     margin-left: 3rem;
     text-align: center;
-    padding: 10rem 7rem;
+    padding: 10rem 6rem;
     border-radius: $borderRadius;
 
     .homeContent{
@@ -21,21 +21,34 @@
             }
         }
         h2{
-            font-weight: 300;
-            color: $lightorange;
-            padding-bottom: 5rem;
+            font-weight: 500;
+            color: $white;
+            // Adpat the gradient to the text
+            width: 45%;
+            margin: auto;
+            // Gradient
+            background-color:$white;
+            background-image: linear-gradient(90deg, rgba(234,91,12,1) 0%, rgba(246,167,109,1) 100%);
+            // A kind of "pathfinder"
+            -webkit-background-clip: text;
+            // Make white text transparent
+            -webkit-text-fill-color: transparent;
+            // Same settings for Firefox 
+            -moz-background-clip: text;
+            -moz-text-fill-color: transparent;
         }
-        i{
-            font-size: 2rem;
-            padding-bottom: 1rem;
-        }
-        p{
-            font-weight: 400;
-            font-style: italic;
-            line-height: 2;
-            padding-bottom: 7rem;
+        // i{
+        //     font-size: 2rem;
+        //     padding-bottom: 1rem;
+        // }
+        // p{
+        //     font-weight: 400;
+        //     font-style: italic;
+        //     line-height: 2;
+        //     padding-bottom: 7rem;
 
-        }
+        // }
+
         .uploadcv{
             i{
                 font-size: 1rem;
