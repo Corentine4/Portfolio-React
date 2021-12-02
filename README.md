@@ -1,4 +1,4 @@
-# Portfolio / Curriculum vitae.
+# Portfolio / Curriculum vitae
 
 
 Réalisé durant la fin de ma formation en tant que Junior Developer à Becode Liège. 
