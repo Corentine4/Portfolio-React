@@ -10,7 +10,7 @@ const Home = () => {
             <div className="homeContainer">
                 <div className="homeContent">
                     <h1>Bienvenue sur le portfollio de <span>Corentine Renuart,</span></h1>
-                    <h2>Une junior en développement front-end.</h2>
+                    <h2>Junior front end developer</h2>
                     
                     {/* Upload the PDF CV */}
                     <div className="uploadcv">

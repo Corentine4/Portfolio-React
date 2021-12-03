@@ -11,7 +11,7 @@ const Navigation = () => {
                     <div className="bubble">
                         <img src={"images/CorentineRenuart.svg"} alt="Auteur de la page"/>
                         <span>
-                            Motivée, créative et rigoureuse, je recherche un stage de 1 à 3 mois me permettant d’acquérir une première expérience dans le secteur de développement web.
+                            Motivée, créative et rigoureuse, je recherche un stage en développement web.
                         </span>
                     </div>
                     {/* Name */}
