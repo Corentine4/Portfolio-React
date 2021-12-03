@@ -8,10 +8,12 @@ const Navigation = () => {
  
             <div className="id">
                     {/* Picture + info bubble talk */}
-                    <div className="tooltip" data-tooltip="Motivée, créative et rigoureuse, je recherche un stage de 1 à 3 mois me permettant d’acquérir une première expérience dans le secteur de développement web.">
+                    <div className="bubble">
                         <img src={"images/CorentineRenuart.svg"} alt="Auteur de la page"/>
+                        <span>
+                            Motivée, créative et rigoureuse, je recherche un stage de 1 à 3 mois me permettant d’acquérir une première expérience dans le secteur de développement web.
+                        </span>
                     </div>
-                    
                     {/* Name */}
                     <div className="idContent">
                         <h3>Corentine Renuart</h3>

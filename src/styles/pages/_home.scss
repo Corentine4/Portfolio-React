@@ -37,6 +37,7 @@
             // Same settings for Firefox 
             -moz-background-clip: text;
             -moz-text-fill-color: transparent;
+            padding-bottom: 10rem;
         }
 
         .uploadcv{
@@ -47,7 +48,7 @@
                 padding: 1rem;
             }
             a:hover{
-                color: $darkorange;
+                color: $darkblue;
             }
         }
     }

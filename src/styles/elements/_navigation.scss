@@ -17,45 +17,60 @@
         position: relative;
         padding-top: 2.5rem;
 
-        // Settings bubble talk
-        .tooltip::before {
-        background : rgba(0, 0, 24, 0.3);
-        border: solid .5px $darkblue;
-        font-size: 1rem;
-        color: $white;
-        content: attr(data-tooltip);
-        position: absolute;
-        width: 18rem;
-        padding: .25rem;
-        margin-left: 10rem;
-        box-shadow: $box-shadow-1;
-        transition: .25s ease;
-        opacity: 0;
-        visibility: hidden;
-        transform: translateY(50%);
-    }
-        // Animation
-        .tooltip:hover::before {
-            opacity: 1;
-            visibility: visible;
-            transform: translateY(calc(100% + 1rem));
-        }
+    // Bubble talk
 
+    div.bubble {
+        position: relative;
+    }
+    div.bubble span {
+        display: none;
+        position: absolute;
+        top: 0.5rem; // Lowering the bubble
+        left: 11.8rem; // Push to the left
+        width: 16rem;
+        padding: 2rem;
+        z-index: 1; // Element in the foreground
+        background: $white;
+        opacity: 0.9;
+        color: $darkblue;
+        -moz-border-radius: 5rem; // For Firefox
+        -webkit-border-radius: 5rem; // For Safari
+        border: solid 0.1rem $darkblue;
+    }
+
+    div.bubble span:before{
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        position: absolute; 
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent; 
+        border-right: 10px solid $white;
+        left: -10px;
+        top: 6rem;
+    }
+    div:hover.bubble {
+        font-size : 99%;
+    }
+    div:hover.bubble span {
+        display : block;
+    }
 
         img{
-            width: 12rem;
-            height: 12rem;
-            border-radius: 50%;
-            border: solid 0.25px $darkblue;
-            box-shadow: $box-shadow-2;
+            width : 12rem;
+            height : 12rem;
+            border-radius : 50%;
+            border : solid 0.25px $darkblue;
+            box-shadow : $box-shadow-2;
         }
         
         .idContent{
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100%;
+            position : absolute;
+            bottom : 0;
+            left : 50%;
+            transform : translateX(-50%);
+            width : 100%;
 
             h3{
                 font-family: $font-Reem-Kufi;
@@ -63,7 +78,6 @@
                 font-weight: normal;
             }
         }
-
     }
 
     .Navigation{
