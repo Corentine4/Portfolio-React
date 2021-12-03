@@ -18,6 +18,30 @@
     position: relative;
     padding-top: 2.5rem;
 
+    // Settings bubble talk
+    .tooltip::before {
+        background : rgba(0, 0, 24, 0.3);
+        border: solid .5px $darkblue;
+        font-size: 1rem;
+        color: $white;
+        content: attr(data-tooltip);
+        position: absolute;
+        width: 18rem;
+        padding: .25rem;
+        margin-left: 10rem;
+        box-shadow: $box-shadow-1;
+        transition: .25s ease;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(50%);
+    }
+    // Animation
+    .tooltip:hover::before {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(calc(100% + 1rem));
+    }
+
     img{
         width: 12rem;
         height: 12rem;
@@ -25,7 +49,7 @@
         border: solid 0.25px $darkblue;
         box-shadow: $box-shadow-2;
     }
-
+    
     .idContent{
         position: absolute;
         bottom: 0;

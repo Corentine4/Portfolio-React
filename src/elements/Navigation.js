@@ -7,7 +7,11 @@ const Navigation = () => {
         <div className="Sidebar">
  
             <div className="id">
-                    <img src={"images/CorentineRenuart.svg"} alt="Auteur de la page"/>
+                    {/* Picture + info bubble talk */}
+                    <i className="tooltip" data-tooltip="Motivée, créative et rigoureuse, je recherche un stage de 1 à 3 mois me permettant d’acquérir une première expérience dans le secteur de développement web.">
+                        <img src={"images/CorentineRenuart.svg"} alt="Auteur de la page"/>
+                    </i>
+                    {/* Name */}
                     <div className="idContent">
                         <h3>Corentine Renuart</h3>
                     </div>
