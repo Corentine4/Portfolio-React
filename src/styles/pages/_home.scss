@@ -4,7 +4,7 @@
     box-shadow: $box-shadow-1, $interior-box-shadow;
     margin-left: 3rem;
     text-align: center;
-    padding: 10rem 6rem;
+    padding: 12rem 5rem;
     border-radius: $borderRadius;
 
     .homeContent{
@@ -12,8 +12,9 @@
         margin: auto;
 
         h1{
+            font-size: 3rem;
             font-weight: 200;
-            padding-bottom: 1rem;
+            padding-bottom: 2rem;
     
             span{
                 font-family: $font-Reem-Kufi;
@@ -21,10 +22,10 @@
             }
         }
         h2{
-            font-weight: 500;
+            font-weight: 300;
             color: $white;
             // Adpat the gradient to the text
-            width: 45%;
+            width: 60%;
             margin: auto;
             // Gradient
             background-color:$white;
@@ -37,31 +38,17 @@
             -moz-background-clip: text;
             -moz-text-fill-color: transparent;
         }
-        // i{
-        //     font-size: 2rem;
-        //     padding-bottom: 1rem;
-        // }
-        // p{
-        //     font-weight: 400;
-        //     font-style: italic;
-        //     line-height: 2;
-        //     padding-bottom: 7rem;
-
-        // }
 
         .uploadcv{
-            i{
-                font-size: 1rem;
-            }
             a{
-                color: $white;
-                padding-left: 1rem;
+                background-color: $lightorange;
+                border-radius: 2rem;
+                color: $darkblue;
+                padding: 1rem;
             }
             a:hover{
-                color: $lightorange;
+                color: $darkorange;
             }
         }
     }
-
-    
 }
