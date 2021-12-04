@@ -7,11 +7,11 @@ const Navigation = () => {
         <div className="Sidebar">
  
             <div className="id">
-                    {/* Picture + info bubble talk */}
+                    {/* Picture + info bubble talk (hover) */}
                     <div className="bubble">
                         <img src={"images/CorentineRenuart.svg"} alt="Auteur de la page"/>
                         <span>
-                            Motivée, créative et rigoureuse, je recherche un stage en développement web.
+                            <p className="typewriter">Motivée, créative et rigoureuse, je recherche un stage en développement web.</p>
                         </span>
                     </div>
                     {/* Name */}
@@ -35,7 +35,7 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/" activeClassName="navActive">
+                        <NavLink exact to="/parcours" activeClassName="navActive">
                             <i className="fas fa-hiking"></i>
                             <span>Parcours</span>
                         </NavLink>

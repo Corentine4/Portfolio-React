@@ -5,6 +5,7 @@ import Knowledges from './pages/Knowledges';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
+import Parcours from './pages/Parcours';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
             <Route path="/" exact element={<Home/>}/>
             {/* Don't forget the "exact" or everything will redirect to the "Home page".*/}
             <Route path="/competences" element={<Knowledges/>}/>
+            <Route path="/parcours" element={<Parcours/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
             <Route path="/contact" element={<Contact/>}/>
           </Routes>
