@@ -1,5 +1,5 @@
 import React from 'react';
-import Experiences from '../elements/Knowledges/Experiences';
+import Experiences from '../elements/Career/Experiences';
 import Hobbys from '../elements/Knowledges/Hobbys';
 import Languages from '../elements/Knowledges/Languages';
 import Otherskills from '../elements/Knowledges/Otherskills';
@@ -15,7 +15,6 @@ const knowledges = () => {
                 {/* Contenus de la page */}
                 <div className="KnowledgesContent">
                     <Languages/>
-                    <Experiences/>
                     <Otherskills/>
                     <Hobbys/>
                 </div>
