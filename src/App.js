@@ -6,6 +6,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
 import Parcours from './pages/Parcours';
+import Apropos from './pages/Apropos';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/parcours" element={<Parcours/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
             <Route path="/contact" element={<Contact/>}/>
+            <Route path="/apropos" element={<Apropos/>}/>
           </Routes>
       </BrowserRouter>
     </div>
