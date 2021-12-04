@@ -1,6 +1,4 @@
 import React from 'react';
-import Experiences from '../elements/Career/Experiences';
-import Hobbys from '../elements/Knowledges/Hobbys';
 import Languages from '../elements/Knowledges/Languages';
 import Otherskills from '../elements/Knowledges/Otherskills';
 import Navigation from './Home';
@@ -16,7 +14,6 @@ const knowledges = () => {
                 <div className="KnowledgesContent">
                     <Languages/>
                     <Otherskills/>
-                    <Hobbys/>
                 </div>
             </div>
         </div>
