@@ -35,7 +35,7 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/parcours" activeClassName="navActive">
+                        <NavLink exact to="/career" activeClassName="navActive">
                             <i className="fas fa-hiking"></i>
                             <span>Parcours</span>
                         </NavLink>

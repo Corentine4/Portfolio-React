@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Knowledges from './pages/Knowledges';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
-import Parcours from './pages/Parcours';
+import Career from './pages/Career';
 import Aboutme from './pages/Aboutme';
 
 const App = () => {
@@ -16,7 +16,7 @@ const App = () => {
             <Route path="/" exact element={<Home/>}/>
             {/* Don't forget the "exact" or everything will redirect to the "Home page".*/}
             <Route path="/competences" element={<Knowledges/>}/>
-            <Route path="/parcours" element={<Parcours/>}/>
+            <Route path="/career" element={<Career/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
             <Route path="/aboutme" element={<Aboutme/>}/>
           </Routes>
