@@ -47,12 +47,6 @@ const Navigation = () => {
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink exact to="/contact" activeClassName="navActive">
-                            <i class="fas fa-phone-alt"></i>
-                            <span>Contact</span>
-                        </NavLink>
-                    </li>
-                    <li>
                         <NavLink exact to="/Apropos" activeClassName="navActive">
                             <i className="fas fa-user"></i>
                             <span>A propos</span>
