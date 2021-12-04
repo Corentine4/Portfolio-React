@@ -5,7 +5,7 @@ import Knowledges from './pages/Knowledges';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
 import Parcours from './pages/Parcours';
-import Apropos from './pages/Apropos';
+import Aboutme from './pages/Aboutme';
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
             <Route path="/competences" element={<Knowledges/>}/>
             <Route path="/parcours" element={<Parcours/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
-            <Route path="/apropos" element={<Apropos/>}/>
+            <Route path="/aboutme" element={<Aboutme/>}/>
           </Routes>
       </BrowserRouter>
     </div>
