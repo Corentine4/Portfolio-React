@@ -1,5 +1,6 @@
 import React from 'react';
-import Languages from '../elements/Knowledges/Languages';
+import Developement from '../elements/Knowledges/Developement';
+import Graphism from '../elements/Knowledges/Graphism';
 import Otherskills from '../elements/Knowledges/Otherskills';
 import Navigation from './Home';
 
@@ -12,7 +13,8 @@ const knowledges = () => {
 
                 {/* Contenus de la page */}
                 <div className="KnowledgesContent">
-                    <Languages/>
+                    <Developement/>
+                    <Graphism/>
                     <Otherskills/>
                 </div>
             </div>

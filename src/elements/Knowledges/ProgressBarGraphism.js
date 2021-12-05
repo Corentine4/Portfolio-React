@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProgressBar = (props) => {
+const ProgressBarGraphism = (props) => {
 
     return (
         <div className={props.className}>
@@ -13,34 +13,22 @@ const ProgressBar = (props) => {
 
             <div>
                 {
-                props.languages.map((item) => {
+                props.graphism.map((item) => {
                 let xpYears = 2;
-                let progressBar = item.xp / xpYears * 100 + '%';
+                let progressBarGraphism = item.xp / xpYears * 100 + '%';
                 
                 return (
-                    <div key={item.id} className="languagesList">
+                    <div key={item.id} className="graphismList">
                         <li>{item.value}</li>
-                        <div className="progressBar" style={
-                            {width:progressBar}}></div>
+                        <div className="progressBarGraphism" style={
+                            {width:progressBarGraphism}}></div>
                         </div>
                 )
                 })
                 }
-            </div>
-    
-
-
-
-
-
+            </div> 
         </div>
-
-
-
-
-
-
     );
 };
 
-export default ProgressBar;
+export default ProgressBarGraphism;
