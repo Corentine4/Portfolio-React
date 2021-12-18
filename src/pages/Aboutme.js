@@ -1,14 +1,17 @@
 import React from 'react';
+// Import elements
 import Navigation from '../elements/Navigation';
 import Hobbys from '../elements/Aboutme/Hobbys';
 import Softskills from '../elements/Aboutme/Softskills';
 
 const Apropos = () => {
     return (
-        <div>
+        <div className="aboutme">
             <Navigation/>
-            <Hobbys/>
-            <Softskills/>
+            <div className="AboutmeContent">
+                <Hobbys/>
+                <Softskills/>
+            </div>
         </div>
     );
 };

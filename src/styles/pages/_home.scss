@@ -8,20 +8,16 @@
     border-radius: $borderRadius;
 
     .homeContent{
-
         margin: auto;
-
         h1{
             font-size: 3rem;
             font-weight: 200;
             padding-bottom: 2rem;
-    
             span{
                 font-family: $font-Reem-Kufi;
                 font-weight: 800;
             }
         }
-
         h2{
             font-weight: 300;
             color: $white;
@@ -40,7 +36,6 @@
             -moz-text-fill-color: transparent;
             padding-bottom: 10rem;
         }
-
         .uploadcv{
             a{
                 background-color: $lightorange;

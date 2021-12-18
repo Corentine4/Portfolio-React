@@ -81,12 +81,13 @@ a{
 }
 
 // Responsive / Mobile 
-.home, .knowledges, .portfolio, .contact {
+.home, .aboutme, .career, .knowledges, .portfolio {
     display: flex;
     @media screen and (max-width: 850px) {
         display: block !important;
     }
 }
+
 // Responive 
 .homeContent, .knowledgesContent, .portfolioContent, .contactContent {
     margin-left: 4rem;

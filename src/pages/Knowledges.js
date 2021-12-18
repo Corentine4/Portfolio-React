@@ -6,10 +6,9 @@ import Navigation from '../elements/Navigation';
 
 const knowledges = () => {
     return (
-        <div>
-            
-            <div className="Knowledges">
-                <Navigation/>
+        <div className="knowledges">
+            <Navigation/>
+            <div className="KnowledgesContent">
                 {/* Contenus de la page */}
                 <div className="KnowledgesContent">
                     <Developement/>

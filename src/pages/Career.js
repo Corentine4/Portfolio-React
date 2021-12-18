@@ -5,10 +5,12 @@ import Training from '../elements/Career/Training';
 
 const Parcours = () => {
     return (
-        <div>
+        <div className="career">
             <Navigation/>
-            <Experiences/>
-            <Training/>
+            <div>
+                <Experiences/>
+                <Training/>
+            </div>
         </div>
     );
 };
