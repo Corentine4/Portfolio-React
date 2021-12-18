@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Home';
+import Navigation from '../elements/Navigation';
 import Experiences from '../elements/Career/Experiences';
 import Training from '../elements/Career/Training';
 

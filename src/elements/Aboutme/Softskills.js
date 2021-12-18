@@ -3,7 +3,7 @@ import React from 'react';
 const Softskills = () => {
     return (
         <div>
-            <h3>Mes "soft skills"</h3>
+            <h3>Soft skills</h3>
             <ul>
                 <div className="rigor">
                     <i class="fas fa-search-plus"></i>

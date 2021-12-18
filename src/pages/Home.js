@@ -9,9 +9,8 @@ const Home = () => {
             {/* Main page */}
             <div className="homeContainer">
                 <div className="homeContent">
-                    <h1>Bienvenue sur le portfollio de <span>Corentine Renuart,</span></h1>
+                    <h1>Bienvenue sur le portfolio de <span>Corentine Renuart,</span></h1>
                     <h2>Junior front end developer</h2>
-                    
                     {/* Upload the PDF CV */}
                     <div className="uploadcv">
                         <a href="./images/CV-Corentine-Renuart.pdf">

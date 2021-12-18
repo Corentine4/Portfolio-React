@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Home';
+import Navigation from '../elements/Navigation';
 
 const Portfolio = () => {
     return (

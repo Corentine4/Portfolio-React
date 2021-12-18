@@ -1,5 +1,5 @@
 import React from 'react';
-import Navigation from './Home';
+import Navigation from '../elements/Navigation';
 import Hobbys from '../elements/Aboutme/Hobbys';
 import Softskills from '../elements/Aboutme/Softskills';
 
