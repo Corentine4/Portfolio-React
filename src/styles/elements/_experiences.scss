@@ -1,20 +1,37 @@
 .Experiences{
     color: $white;
-    font-weight: 200;
+    font-weight: 300;
     border: solid 0.1rem $white-opacity-20;
     box-shadow: $box-shadow-1, $interior-box-shadow;
     margin-left: 3rem;
-    text-align: center;
-    padding: 12rem 5rem;
+    padding: 1.75rem;
     border-radius: $borderRadius;
+    width: 50%;
+    line-height: 1.5;
 
     h3{
-        font-weight: 800;
+        font-weight: 500;
+        color: $lightorange;
+        font-size: 2rem;
+        padding-bottom: 1rem; // To have the same distance between the title, .experience-1 and .experience-2
     }
     h4{
         font-weight: 600;
+        font-size: 1.25rem;
     }
     h5{
-        font-weight: 400;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    li{
+        list-style: initial;
+        margin-left: 1rem;
+    }
+
+    .experience-1{
+        padding: 1rem;
+    }
+    .experience-2{
+        padding: 1rem;
     }
 }

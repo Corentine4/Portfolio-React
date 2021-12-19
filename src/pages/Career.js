@@ -7,7 +7,7 @@ const Parcours = () => {
     return (
         <div className="career">
             <Navigation/>
-            <div>
+            <div className="CareerContent">
                 <Experiences/>
                 <Training/>
             </div>
