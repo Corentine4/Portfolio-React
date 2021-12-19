@@ -5,19 +5,20 @@ const Training = () => {
         <div className="Training">
             <h3>Formation</h3>
             <div className="training-1">
-                <h4>ESA Saint-Luc Liège</h4>
-                <h5>Septembre 2015 - Juin 2020</h5>
-                <p>Master en design industriel (satisfaction)</p>
+                <h4>Master en design industriel</h4>
+                <h5>ESA Saint-Luc Liège</h5>
+                <p>Septembre 2015 - Juin 2020</p>
+                <p>Diplôme obtenu le 2 juillet 2020</p>
             </div>
             <div className="training-2">
-                <h4>Centre IFAPME Liège-Huy-Verviers</h4>
-                <h5>Septembre 2020 - Juin 2021</h5>
-                <p>Cours du soir en design graphique (distinction).</p>
+                <h4>Design graphique</h4>
+                <h5>Centre IFAPME Liège-Huy-Verviers</h5>
+                <p>Septembre 2020 - Juin 2021</p>
             </div>
             <div className="training-3">
-                <h4>ESD de la Región de Murcia</h4>
-                <h5>Septembre 2018 - Février 2019</h5>
-                <p>6 months Erasmus exchange at the Murcia School of Design</p>
+                <h4>Echange Erasmus</h4>
+                <h5>Escuela Superior de Diseño de la Región de Murcia</h5>
+                <p>Septembre 2018 - Février 2019</p>
             </div>
         </div>
     );
