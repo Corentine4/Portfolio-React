@@ -3,23 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
     return (
-        // Container div for the navigation
         <div className="Sidebar">
- 
-            <div className="id">
-                    {/* Picture + info bubble talk (hover) */}
-                    <div className="bubble">
-                        <img src={"images/CorentineRenuart.svg"} alt="Auteur de la page"/>
-                        <span>
-                            <p className="typewriter">Motivée, créative et rigoureuse, je recherche un stage en développement web.</p>
-                        </span>
-                    </div>
-                    {/* Name */}
-                    <div className="idContent">
-                        <h3>Corentine Renuart</h3>
-                    </div>
-            </div>
- 
             <div className="Navigation">
                 <ul>
                     <li>
@@ -54,7 +38,6 @@ const Navigation = () => {
                     </li>
                 </ul>
             </div>
-
             <div className="socialNetwork">
                 <ul>
                     <li>
@@ -74,7 +57,6 @@ const Navigation = () => {
                     </li>
                 </ul>
             </div>
-
         </div>
     );
 };

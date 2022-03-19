@@ -7,8 +7,8 @@ const ProgressBarGraphism = (props) => {
             <h3>{props.title}</h3>
             <div className="years">
                 <span>Pourcentage</span>
-                <span>0%</span>
-                <span>100%</span>
+                <span className='Years'>0%</span>
+                <span className='Years'>100%</span>
             </div>
 
             <div>

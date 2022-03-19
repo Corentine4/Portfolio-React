@@ -2,7 +2,7 @@ import React from 'react';
 
 const Softskills = () => {
     return (
-        <div>
+        <div className="softskills">
             <h3>Soft skills</h3>
             <ul>
                 <div className="rigor">

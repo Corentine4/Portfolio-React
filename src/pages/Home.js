@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from '../elements/Navigation';
+import Nextpage from '../elements/Nextpage';
 
 const Home = () => {
     return (
@@ -9,7 +10,7 @@ const Home = () => {
             <div className="homeContainer">
                 <div className="homeContent">
                     <h1>Bienvenue sur le portfolio de <span>Corentine Renuart,</span></h1>
-                    <h2>Junior front end developer</h2>
+                    <h2>Junior front-end developer - UI/UX</h2>
                     <div className="uploadcv">
                         <a href="./images/CV-Corentine-Renuart.pdf">
                             Télécharger le CV en pdf
@@ -17,6 +18,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            <Nextpage/>
         </div>
     );
 };

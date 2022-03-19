@@ -73,26 +73,26 @@ a{
 }
 
 
-// RESPONSIVE 
-@mixin verticalCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+// // RESPONSIVE 
+// @mixin verticalCenter {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
 
-// Responsive / Mobile 
-.home, .aboutme, .career, .knowledges, .portfolio {
-    display: flex;
-    @media screen and (max-width: 850px) {
-        display: block !important;
-    }
-}
+// // Responsive / Mobile 
+// .home, .aboutme, .career, .knowledges, .portfolio {
+//     display: flex;
+//     @media screen and (max-width: 850px) {
+//         display: block !important;
+//     }
+// }
 
-// Responive 
-.homeContent, .knowledgesContent, .portfolioContent, .contactContent {
-    margin-left: 4rem;
+// // Responive 
+// .homeContent, .knowledgesContent, .portfolioContent, .contactContent {
+//     margin-left: 4rem;
 
-    @media  screen and (max-width: 850px) {
-        margin-left: 0 !important;
-    }
-}
+//     @media  screen and (max-width: 850px) {
+//         margin-left: 0 !important;
+//     }
+// }

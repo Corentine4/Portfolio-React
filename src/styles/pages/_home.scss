@@ -2,15 +2,15 @@
     color: $white;
     border: solid 0.1rem $white-opacity-20;
     box-shadow: $box-shadow-1, $interior-box-shadow;
-    margin-left: 3rem;
     text-align: center;
     padding: 12rem 5rem;
     border-radius: $borderRadius;
+    margin-top: 1.5rem;
 
     .homeContent{
         margin: auto;
         h1{
-            font-size: 3rem;
+            font-size: 2.5rem;
             font-weight: 200;
             padding-bottom: 2rem;
             span{
@@ -20,32 +20,25 @@
         }
         h2{
             font-weight: 300;
-            color: $white;
-            // Adpat the gradient to the text
-            width: 60%;
-            margin: auto;
-            // Gradient
-            background-color:$white;
-            background-image: linear-gradient(90deg, rgba(234,91,12,1) 0%, rgba(246,167,109,1) 100%);
-            // A kind of "pathfinder"
-            -webkit-background-clip: text;
-            // Make white text transparent
-            -webkit-text-fill-color: transparent;
-            // Same settings for Firefox 
-            -moz-background-clip: text;
-            -moz-text-fill-color: transparent;
+            color: $lightorange;
             padding-bottom: 10rem;
         }
         .uploadcv{
             a{
-                background-color: $lightorange;
+                background-color:$white;
+                background-image: linear-gradient(90deg, rgba(234,91,12,1) 0%, rgba(246,167,109,1) 100%);
                 border-radius: 2rem;
                 color: $darkblue;
                 padding: 1rem;
+                padding-left: 1.5rem;
+                padding-right: 1.5rem;
             }
             a:hover{
                 color: $darkblue;
             }
+        }
+        .uploadcv:hover{
+            transform: scale(1.05, 1.05);
         }
     }
 }

@@ -8,7 +8,7 @@ const Experiences = () => {
                 <h4>UI/UX / Frontend (stage)</h4>
                 <h5>IOT Factory • Janvier 2022 - Avril 2022</h5>
                 <ul>
-                    <li>Création d'emballages et d'objets publicitaires pour différentes marques telles qu'ING, Léonidas, Galler, Lyreco et Tilman.</li>
+                    <li>Création d'emballages et d'objets publicitaires pour différentes marques telles qu'ING, Léonidas, Galler et Tilman.</li>
                     <li>Recherches / améliorations de concepts, modélisations / rendus 3D, plans industriels.</li>
                 </ul>
             </div>

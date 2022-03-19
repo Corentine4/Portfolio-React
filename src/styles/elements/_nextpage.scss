@@ -1,0 +1,22 @@
+.nextpage{
+    margin-top: 3rem !important;
+    margin: auto;
+    color: $white;
+    border: solid 1px $darkorange;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+
+    .fas{
+        color: $darkorange;
+    }
+}
+
+.nextpage:hover{
+    transform: scale(1.1, 1.1);
+    background-color: $darkorange;
+
+    .fas{
+        color: $white;
+    }
+}

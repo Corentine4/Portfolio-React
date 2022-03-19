@@ -6,9 +6,9 @@ const ProgressBarDevelopement = (props) => {
         <div className={props.className}>
             <h3>{props.title}</h3>
             <div className="years">
-                <span>Pourcentage</span>
-                <span>0%</span>
-                <span>100%</span>
+                <span>Expériences</span>
+                <span>1 an</span>
+                <span>2 ans</span>
             </div>
 
             <div>
