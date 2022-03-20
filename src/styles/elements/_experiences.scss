@@ -17,19 +17,26 @@
         margin-bottom: 0.5rem;
         font-weight: 400;
         width: 100%;
+        text-transform: uppercase;
+        
     }
     h4{
-        font-weight: 500;
-        font-size: 1rem;
+        font-weight: 400;
+        font-size: 1.1rem;
         color: $lightblue;
     }
     h5{
         font-weight: 400;
-        font-size: 0.9rem;
+        font-size: 1rem;
+    }
+    h6{
+        font-weight: 300;
+        font-size: 1rem;
+        margin-left: 1rem;
     }
     li{
-        list-style: square;
-        margin-left: 1rem;
+        list-style: disc;
+        margin-left: 2rem;
     }
 
     .experiences{
