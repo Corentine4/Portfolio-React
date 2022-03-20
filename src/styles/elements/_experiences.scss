@@ -11,6 +11,18 @@
     line-height: 1.5;
     font-size: 0.9rem;
 
+    .Timeline{
+        width: 15%;
+        line-height: 3;
+
+        content: "";
+            background-color: $lightblue;
+            position: absolute;
+            height: 350px;
+            width: 2px;
+            transform: translate(8px, -15px);
+    }
+
     h3{
         color: $lightorange;
         font-size: 20px;
@@ -18,25 +30,29 @@
         font-weight: 400;
         width: 100%;
         text-transform: uppercase;
-        
     }
     h4{
         font-weight: 400;
         font-size: 1.1rem;
         color: $lightblue;
+
+        i{
+            margin-right: 1rem;
+        }
     }
     h5{
         font-weight: 400;
         font-size: 1rem;
+        margin-left: 2.5rem;
     }
     h6{
         font-weight: 300;
         font-size: 1rem;
-        margin-left: 1rem;
+        margin-left: 2.5rem;
     }
     li{
         list-style: disc;
-        margin-left: 2rem;
+        margin-left: 3.5rem;
     }
 
     .experiences{
