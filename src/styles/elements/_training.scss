@@ -1,30 +1,26 @@
 .Training{
     color: $white;
-    font-weight: 200;
     border: solid 0.1rem $white-opacity-20;
     box-shadow: $box-shadow-1, $interior-box-shadow;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-left: 0.75rem;
     padding: 2rem;
     border-radius: $borderRadius;
     width: 50%;
     line-height: 1.5;
-    font-size: 0.9rem;
 
     h3{
-        font-weight: 200;
-        color: $darkorange;
-        font-size: 2rem;
-        padding-bottom: 1rem;
-        // Gradient to the text
+        font-weight: 400;
+        color: $lightorange;
+        font-size: 20px;
         width: 100%;
         margin: auto;
-        color: $darkorange;
+        margin-bottom: 0.5rem;
     }
     h4{
         font-weight: 500;
         font-size: 1rem;
-        color: $lightorange;
+        color: $lightblue;
     }
     h5{
         font-weight: 400;

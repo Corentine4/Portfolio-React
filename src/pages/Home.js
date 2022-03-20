@@ -1,6 +1,5 @@
 import React from 'react';
 import Navigation from '../elements/Navigation';
-import Nextpage from '../elements/Nextpage';
 
 const Home = () => {
     return (
@@ -18,7 +17,6 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Nextpage/>
         </div>
     );
 };

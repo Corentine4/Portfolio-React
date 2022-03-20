@@ -3,7 +3,7 @@
     font-weight: 200;
     border: solid 0.1rem $white-opacity-20;
     box-shadow: $box-shadow-1, $interior-box-shadow;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
     margin-right: 0.75rem;
     padding: 2rem;
     border-radius: $borderRadius;
@@ -12,19 +12,16 @@
     font-size: 0.9rem;
 
     h3{
-        font-weight: 200;
-        color: $darkorange;
-        font-size: 1.75rem;
-        padding-bottom: 1rem; // To have the same distance between the title, .experience-1 and .experience-2
-        // Gradient to the text
+        color: $lightorange;
+        font-size: 20px;
+        margin-bottom: 0.5rem;
+        font-weight: 400;
         width: 100%;
-        margin: auto;
-        color: $darkorange;
     }
     h4{
         font-weight: 500;
         font-size: 1rem;
-        color: $lightorange;
+        color: $lightblue;
     }
     h5{
         font-weight: 400;

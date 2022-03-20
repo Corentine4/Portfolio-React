@@ -8,8 +8,8 @@ const Experiences = () => {
                 <h4>UI/UX / Frontend (stage)</h4>
                 <h5>IOT Factory • Janvier 2022 - Avril 2022</h5>
                 <ul>
-                    <li>Création d'emballages et d'objets publicitaires pour différentes marques telles qu'ING, Léonidas, Galler et Tilman.</li>
-                    <li>Recherches / améliorations de concepts, modélisations / rendus 3D, plans industriels.</li>
+                    <li></li>
+                    <li></li>
                 </ul>
             </div>
             <div className="experiences">
@@ -17,7 +17,8 @@ const Experiences = () => {
                 <h5>Becode.org • Juin 2021 - Janvier 2022</h5>
                 <ul>
                     <li>7 mois de formation intensive afin d'apprendre le développement web.</li>
-                    <li>HTML5, CSS3, SASS, Bootstrap, Javascript, Reactjs, Wordpress, Git, Npm.</li>
+                    <li>HTML5, CSS3, SASS, Bootstrap, Javascript, Reactjs, Wordpress, Php, Git, Npm.</li>
+                    <li>Réalisation d'un projet MERN en groupe : refonte d'un site e-commerce.</li>
                 </ul>
             </div>
             <div className="experiences">
