@@ -2,7 +2,6 @@
 
 // Elements
 @import './elements/navigation';
-@import './elements/knowledges';
 @import './elements/experiences';
 @import './elements/training';
 @import './elements/hobbys';
@@ -10,6 +9,7 @@
 @import './elements/graphism';
 @import './elements/otherskills';
 @import './elements/nextpage';
+@import 'elements/languages';
 
 // Pages
 @import './pages/home';
@@ -17,4 +17,3 @@
 @import './pages/notfound';
 @import './pages/portfolio';
 @import './pages/career';
-@import './pages/aboutme';

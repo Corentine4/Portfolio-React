@@ -3,6 +3,10 @@ import Developement from '../elements/Knowledges/Developement';
 import Graphism from '../elements/Knowledges/Graphism';
 import Otherskills from '../elements/Knowledges/Otherskills';
 import Navigation from '../elements/Navigation';
+import Nextpage from '../elements/Nextpage';
+import Softskills from '../elements/Knowledges/Softskills';
+import Hobbys from '../elements/Knowledges/Hobbys';
+import Languages from '../elements/Knowledges/Languages';
 
 const knowledges = () => {
     return (
@@ -10,11 +14,17 @@ const knowledges = () => {
             <Navigation/>
             <div className="KnowledgesContent">
                 {/* Contenus de la page */}
-                <div className="KnowledgesContent">
-                    <Developement/>
-                    <Graphism/>
-                    <Otherskills/>
-                </div>
+                    <div className='Developement_Graphism'>
+                        <Developement/>
+                        <Graphism/>
+                        <Otherskills/>
+                    </div>
+                    <div className="SoftskillssHobbysContent">
+                        <Softskills/>
+                        <Hobbys/>
+                        <Languages/>
+                    </div>
+                    <Nextpage/>
             </div>
         </div>
     );

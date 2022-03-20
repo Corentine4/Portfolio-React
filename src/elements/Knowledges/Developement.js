@@ -3,33 +3,26 @@ import ProgressBarDevelopement from './ProgressBarDevelopement';
 
 class Developement extends Component {
     
-    // Store values ​​dynamically
     state = {
         languages : [
-            {id: 1, value: "CSS / SASS", xp:2},
-            {id: 2, value: "Javascript", xp:2},
-        ],
-        frameworks : [
-            {id: 1, value: "Bootstrap", xp:2},
-            {id: 2, value: "Reactjs", xp:2},
+            {id: 1, value: "Css3", xp:1.5},
+            {id: 2, value: "Sass", xp:1},
+            {id: 3, value: "Bootstrap", xp:0.5},
+            {id: 4, value: "Javascript", xp:1},
+            {id: 5, value: "Reactjs", xp:0.5},
         ],
     }
     
     render() {
 
-        let {languages, frameworks} = this.state;
+        let {languages} = this.state;
 
         return (
-            <div className="languagesFrameworks">
+            <div className="LanguagesFrameworks">
                 <ProgressBarDevelopement
                     languages={languages}
-                    title="Languages"
+                    title="Développement web"
                     className="languageDisplay"
-                />
-                <ProgressBarDevelopement
-                    languages={frameworks}
-                    title="Frameworks"
-                    className="frameworksDisplay"
                 />
             </div>
         );

@@ -30,12 +30,6 @@ const Navigation = () => {
                             <span>Portfolio</span>
                         </NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to="/Aboutme" activeClassName="navActive">
-                            <i className="fas fa-user"></i>
-                            <span>A propos</span>
-                        </NavLink>
-                    </li>
                 </ul>
             </div>
             <div className="socialNetwork">

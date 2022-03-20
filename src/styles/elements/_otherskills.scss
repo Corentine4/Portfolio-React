@@ -7,4 +7,11 @@
     padding: 2rem;
     border-radius: $borderRadius;
     line-height: 1.5;
+    margin-left: 1.5rem;
+
+    .fas{
+        color: $lightblue;
+        font-size: 0.9rem;
+        margin-right: 0.5rem;
+    }
 }

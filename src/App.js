@@ -5,7 +5,6 @@ import Knowledges from './pages/Knowledges';
 import Portfolio from './pages/Portfolio';
 import NotFound from './pages/NotFound';
 import Career from './pages/Career';
-import Aboutme from './pages/Aboutme';
 
 const App = () => {
   return (
@@ -18,7 +17,6 @@ const App = () => {
             <Route path="/competences" element={<Knowledges/>}/>
             <Route path="/career" element={<Career/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
-            <Route path="/aboutme" element={<Aboutme/>}/>
           </Routes>
       </BrowserRouter>
     </div>
