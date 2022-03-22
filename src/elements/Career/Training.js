@@ -8,9 +8,6 @@ const Training = () => {
                 <h4>
                     <i class="fas fa-thin fa-circle"></i> Formation en design graphique
                 </h4>
-                <div className='Timelineanimation'>
-                    <span className="Timeline"></span>
-                </div>
                 <h5>Centre IFAPME Liège-Huy-Verviers</h5>
                 <h6>Septembre 2020 - Juin 2021</h6>
             </div>
@@ -26,6 +23,9 @@ const Training = () => {
                 <h4>
                     <i class="fas fa-thin fa-circle"></i> Echange Erasmus
                 </h4>
+                <div className='Timelineanimation'>
+                    <span className="Timeline"></span>
+                </div>
                 <h5>Escuela Superior de Diseño de la Región de Murcia</h5>
                 <h6>Septembre 2018 - Février 2019</h6>
                 <p>Diseño de producto</p>
