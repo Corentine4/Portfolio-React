@@ -1,0 +1,61 @@
+.Portfolio{
+
+    .PortfolioContent{
+
+        .RadioDisplay {
+            display: grid;
+            width: 100%;
+        }
+
+        .Projects{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, 585px);
+            justify-content: center;
+            height: auto;
+            margin: auto;
+            grid-gap: 24px;
+
+            .projects{
+                color: $white;
+                font-weight: 200;
+                border: solid 0.1rem $white-opacity-20;
+                box-shadow: $box-shadow-1, $interior-box-shadow;
+                margin-top: 2rem;
+                padding: 1rem;
+                border-radius: $borderRadius;
+                line-height: 1.5;
+                font-size: 0.9rem;
+
+                h3{
+                    color: $lightorange;
+                    font-size: 20px;
+                    margin-bottom: 0.5rem;
+                    font-weight: 400;
+                    width: 100%;
+                    text-transform: uppercase;
+                }
+    
+                img{
+                    width: 100%;
+                }
+    
+                .Infos{
+                    display: block; // To be able to align the icon in the center
+                    text-align: center;
+                    
+                    i{
+                        font-size: 1.5rem;
+                        color: $lightblue;
+                        margin-top: 1rem;                 
+                    }
+
+                    i:hover{
+                        transform: scale(1.1, 1.1);
+                        cursor: pointer;
+                    }
+                }
+            }
+
+        }
+    }
+}
