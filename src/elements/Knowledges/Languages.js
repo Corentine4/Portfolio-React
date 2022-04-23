@@ -11,6 +11,9 @@ const Languages = () => {
                 <li>
                     <i class="fas fa-check"></i> Bases d'espagnol
                 </li>
+                <li>
+                    <i class="fas fa-check"></i> Bases de néerlandais
+                </li>
             </ul>
         </div>
     );

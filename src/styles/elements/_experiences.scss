@@ -11,22 +11,6 @@
     line-height: 1.5;
     font-size: 0.9rem;
 
-    .Timeline{
-        width: 15%;
-        line-height: 3;
-        content: "";
-        background-color: $lightblue;
-        position: absolute;
-        // transform: translate(7.5px, 125px);
-        // animation: untilthetop 2s ;
-        // animation-fill-mode: forwards;
-
-        // @keyframes untilthetop {
-        //     0% {bottom: 600px; height: 0px; width: 3px;}
-        //     100% {bottom: 600px; height: 350px; width: 3px;}
-        // }
-    }
-
     h3{
         color: $lightorange;
         font-size: 20px;
@@ -42,6 +26,7 @@
 
         i{
             margin-right: 1rem;
+            font-size: 0.6rem;
         }
     }
     h5{

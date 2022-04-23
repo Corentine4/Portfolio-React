@@ -40,6 +40,7 @@
 
         i{
             margin-right: 1rem;
+            font-size: 0.6rem;
         }
     }
     h5{
@@ -52,9 +53,14 @@
         font-size: 1rem;
         margin-left: 2.5rem;
     }
-    li{
-        list-style: disc;
-        margin-left: 3.5rem;
+    ul{
+        font-weight: 200;
+        font-size: 0.9rem;
+
+        li{
+            list-style: inside;
+            margin-left: 3rem;
+        }
     }
 
     .training{

@@ -6,31 +6,29 @@ const Experiences = () => {
             <h3>Expériences</h3>
             <div className="experiences">
                 <h4>
-                    <i class="fas fa-thin fa-circle"></i> Stage front-end (UI/UX)
+                    <i class="fas fa-thin fa-circle"></i> Animatrice - CDD (2 semaines)
+                </h4>
+                <h5>BeCentral, Liège</h5>
+                <h6>04 - 15 Avril 2022</h6>
+                <ul>
+                    <li>Animation d'un stage de Pâques afin d'apprendre les bases de l'informatique à des enfants de 8 à 12 ans.</li>
+                </ul>
+            </div>
+            <div className="experiences">
+                <h4>
+                    <i class="fas fa-thin fa-circle"></i> Stage UI/UX - Développeuse front-end (3 mois)
                 </h4>
                 <span className="Timeline"></span>
                 <h5>IOT Factory, Bruxelles</h5>
-                <h6>Janvier - Avril 2022</h6>
+                <h6>17 Janvier - 01 Avril 2022</h6>
                 <ul>
-                    <li>Refonte entière de l'interface web de leur application : amélioration du design et de l'expérience utilisateur.</li>
-                    <li>Pug, Sass, Bootstrap, Angularjs</li>
+                    <li>Refonte entière de l'interface web de leur application : amélioration du design et de l'expérience utilisateur (Adobe XD).</li>
+                    <li>Application des solutions en Pug, SCSS, Bootstrap, Angularjs.</li>
                 </ul>
             </div>
             <div className="experiences">
                 <h4>
-                    <i class="fas fa-thin fa-circle"></i> Junior frontend developer
-                </h4>
-                <h5>Becode.org, Liège</h5>
-                <h6>Juin 2021 - Janvier 2022</h6>
-                <ul>
-                    <li>7 mois de formation intensive afin d'apprendre le développement web.</li>
-                    <li>HTML5, CSS3, SASS, Bootstrap, Javascript, Reactjs, Wordpress, Php, Git, Npm.</li>
-                    <li>Réalisation d'un projet MERN en groupe : refonte d'un site e-commerce.</li>
-                </ul>
-            </div>
-            <div className="experiences">
-                <h4>
-                    <i class="fas fa-thin fa-circle"></i> Stage design industriel
+                    <i class="fas fa-thin fa-circle"></i> Stage en design industriel (3 mois)
                 </h4>
                 <h5>Aazio (Stratégie Agency), Oupeye</h5>
                 <h6>Novembre 2019 - Janvier 2020</h6>

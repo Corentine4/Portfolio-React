@@ -8,7 +8,6 @@
     margin-top: 2rem;
 
     .homeContent{
-
         margin: auto;
         
         h1{
@@ -21,21 +20,24 @@
             }
         }
         h2{
-            font-weight: 300;
-            color: $lightorange;
+            font-weight: 400;
+            color: $lightblue;
             padding-bottom: 10rem;
             line-height: 3rem;
         }
         .uploadcv{
             a{
                 border-radius: 2rem;
-                color: $lightblue;
+                color: $lightorange;
                 padding: 1rem;
                 padding-left: 1.5rem;
                 padding-right: 1.5rem;
+                font-weight: 200;
             }
             a:hover{
-                color: $lightblue;
+                color: $lightorange;
+                font-weight: 300;
+                
             }
         }
         .uploadcv:hover{
