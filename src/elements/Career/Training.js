@@ -6,18 +6,18 @@ const Training = () => {
             <h3>Formation</h3>
             <div className="training">
                 <h4>
-                    <i class="fas fa-thin fa-circle"></i> Formation de développement web
+                    <i class="fas fa-thin fa-circle"></i> Formation de développement web (7 mois)
                 </h4>
                 <h5>Becode.org, Liège</h5>
                 <h6>Juin 2021 - Janvier 2022</h6>
                 <ul>
-                    <li>7 mois pour apprendre l’HTML5, CSS3, SASS, Bootstrap, Javascript, Reactjs, Wordpress, Php, Git, Npm, Nodejs,...</li>
+                    <li>HTML5, CSS3, SASS, Bootstrap, Javascript, Reactjs, Wordpress, Php, Git, Npm, Nodejs,...</li>
                     <li>Réalisation de nombreux projets de groupe dont un projet MERN : refonte entière d'un site e-commerce.</li>
                 </ul>
             </div>
             <div className="training">
                 <h4>
-                    <i class="fas fa-thin fa-circle"></i> Formation de design graphique
+                    <i class="fas fa-thin fa-circle"></i> Formation de design graphique (1 an)
                 </h4>
                 <h5>Centre IFAPME Liège-Huy-Verviers</h5>
                 <h6>Septembre 2020 - Juin 2021</h6>

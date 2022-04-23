@@ -9,22 +9,6 @@
     width: 50%;
     line-height: 1.5;
 
-    .Timeline{
-        width: 15%;
-        line-height: 3;
-        content: "";
-        background-color: $lightblue;
-        position: absolute;
-        transform: translate(7.5px, -15px);
-        // animation: tothetop ease-out 2s ;
-        // animation-fill-mode: forwards;
-
-        // @keyframes tothetop {
-        //     0% {bottom: 600px; height: 0px; width: 3px;}
-        //     100% {bottom: 600px; height: 205px; width: 3px;}
-        // }
-    }
-
     h3{
         color: $lightorange;
         font-size: 20px;
@@ -34,13 +18,14 @@
         text-transform: uppercase;
     }
     h4{
-        font-weight: 400;
+        font-weight: 300;
         font-size: 1.1rem;
-        color: $lightblue;
+        color: $lightorange;
 
         i{
             margin-right: 1rem;
             font-size: 0.6rem;
+            color: $lightblue !important;
         }
     }
     h5{

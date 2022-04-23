@@ -20,13 +20,14 @@
         text-transform: uppercase;
     }
     h4{
-        font-weight: 400;
+        font-weight: 300;
         font-size: 1.1rem;
-        color: $lightblue;
+        color: $lightorange;
 
         i{
             margin-right: 1rem;
             font-size: 0.6rem;
+            color: $lightblue !important;
         }
     }
     h5{
