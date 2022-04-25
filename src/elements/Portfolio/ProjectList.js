@@ -14,9 +14,9 @@ export default class ProjectList extends Component {
         
         return (
             <div className='PortfolioContent'>
-                <ul className='RadioDisplay'>
+                {/* <ul className='RadioDisplay'>
                     Boutons radios
-                </ul>
+                </ul> */}
                 <div className='Projects'>
                     {
                         projects.map(item => {

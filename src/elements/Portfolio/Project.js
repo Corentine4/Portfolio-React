@@ -22,21 +22,23 @@ class Project extends Component {
 
                     {
                         this.state.showDescription && (
-                            <div className='showModal'>
-                                <div className='buttonReturn' onClick={this.handleDescription}>
-                                    <span className="closeDetails">
-                                        <i className="fa fa-plus"></i>
-                                    </span>
-                                </div>
-                                <div className='headModal'>
-                                    <h2>{name}</h2>
-                                    <span>{date}</span>
-                                </div>
-                                <div className='PictureContainer'>
-                                    <img src={picturemodal} alt="Photo du projet" className="PictureDescription"></img>
-                                </div>
-                                <div className='ModalContainer'>
-                                    <p>{description}</p>
+                            <div className='showInfos'>
+                                <div className='showModal'>
+                                    <div className='buttonReturn' onClick={this.handleDescription}>
+                                        <span className="closeDetails">
+                                            <i className="fa fa-plus"></i>
+                                        </span>
+                                    </div>
+                                    <div className='headModal'>
+                                        <h2>{name}</h2>
+                                        <span>{date}</span>
+                                    </div>
+                                    <div className='PictureContainer'>
+                                        <img src={picturemodal} alt="Photo du projet" className="PictureDescription"></img>
+                                    </div>
+                                    <div className='ModalContainer'>
+                                        <p>{description}</p>
+                                    </div>
                                 </div>
                             </div>
                         )
