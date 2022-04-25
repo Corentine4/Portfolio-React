@@ -2,17 +2,43 @@ import React, { Component } from 'react';
 
 class Project extends Component {
     
-    render() {
+    state = {
+        showDescription: false
+    }
 
-        let {name, category, source, info, picture} = this.props.item;
+    handleDescription = () => {
+        this.setState({
+            showDescription : !this.state.showDescription
+        })
+    }
+
+    render() {
+        let {name, category, description, picture} = this.props.item;
 
         return (
             <div className="projects">
-                <h3>{name}</h3>
-                <img src={picture} alt="Photo du projet"></img>
-                <span className='Infos'>
-                    <i className='fas fa-plus-circle'></i>
-                </span>
+                <div className='projectsContainer'>
+                    <img className='Projectpicture' src={picture} alt="Photo du projet" onClick={this.handleDescription}></img>
+
+                    {
+                        this.state.showDescription && (
+                            <div className='showModal'>
+                                <div className='buttonReturn' onClick={this.handleDescription}>
+                                    <span className="closeDetails">
+                                        <i className="fa fa-plus"></i>
+                                    </span>
+                                </div>
+                                <div className='headModal'>
+                                    <h2>{name}</h2>
+                                    <img src={picture} alt="Photo du projet" className="PictureDescription"></img>
+                                </div>
+                                <div className='ModalContainer'>
+                                    <p>{description}</p>
+                                </div>
+                            </div>
+                        )
+                    }
+                </div>
             </div>
         );
     }

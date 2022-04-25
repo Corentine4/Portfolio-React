@@ -20,14 +20,15 @@ export default class ProjectList extends Component {
                 <div className='Projects'>
                     {
                         projects.map(item => {
-
                             return (
-                                <Project
+                                <>
+                                    <Project
                                     key= {item.id}
                                     item={item}
+                                    PortfolioData = {PortfolioData}
                                 />
+                                </>
                             )
-
                         })
                     }
                 </div>
