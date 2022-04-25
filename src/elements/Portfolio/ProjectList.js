@@ -26,7 +26,7 @@ export default class ProjectList extends Component {
                                     key= {item.id}
                                     item={item}
                                     PortfolioData = {PortfolioData}
-                                />
+                                    />
                                 </>
                             )
                         })

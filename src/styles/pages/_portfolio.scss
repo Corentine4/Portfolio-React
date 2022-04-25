@@ -27,72 +27,90 @@
                     text-transform: uppercase;
                 }
             
-            .projectsContainer{
+                .projectsContainer{
 
-                .Projectpicture{
-                    width: 380px;
-                    border-radius: $borderRadius;
-                    cursor: pointer;
-                    box-shadow: $box-shadow-1, $interior-box-shadow;
-                    border: solid 0.1rem $white-opacity-20;
-                }
+                    .Projectpicture{
+                        width: 380px;
+                        border-radius: $borderRadius;
+                        cursor: pointer;
+                        box-shadow: $box-shadow-1, $interior-box-shadow;
+                        border: solid 0.1rem $white-opacity-20;
+                    }
 
-                .Projectpicture:hover{
-                    transform: scale(1.04, 1.04);
-                }
+                    .Projectpicture:hover{
+                        transform: scale(1.04, 1.04);
+                    }
 
-                .showModal{
-                    background-color: #fff;
-                    padding: 2rem;
-                    border-radius: $borderRadius;
-                    box-shadow: $box-shadow-1, $interior-box-shadow;
-                    border: solid 0.1rem $white-opacity-20;
-                    width: 47%;
-                    position: absolute;
-                    left: 26.5%;
-                    top: 15%;
-                    z-index: 2;
+                    .showModal{
+                        background-color: #fff;
+                        padding: 2rem;
+                        border-radius: $borderRadius;
+                        box-shadow: $box-shadow-1, $interior-box-shadow;
+                        border: solid 0.1rem $white-opacity-20;
+                        width: 45%;
+                        position: absolute;
+                        left: 27.4%;
+                        top: 11%;
+                        z-index: 2;
 
-                    .buttonReturn{
-                        .closeDetails{
-                            float: right;
-                            cursor: pointer;
-                            transform: rotate(45deg);
+                        .buttonReturn{
+                            .closeDetails{
+                                float: right;
+                                cursor: pointer;
+                                transform: rotate(45deg);
 
-                            i{
-                                color: white;
-                                margin: auto;
-                                background-color: $lightblue;
-                                border-radius: 20px;
-                                padding: 0.5rem;
+                                i{
+                                    color: white;
+                                    margin: auto;
+                                    background-color: $lightblue;
+                                    border-radius: 20px;
+                                    padding: 0.5rem;
+                                }
+                            }
+                            .closeDetails:hover{
+                                transform: rotate(0deg);
                             }
                         }
-                        .closeDetails:hover{
-                            transform: rotate(0deg);
+                        .headModal{
+                            display: flex;
+                            margin-bottom: 0.5rem;
+                            align-items: center;
+
+                            h2{
+                                text-transform: uppercase;
+                                font-weight: 500;
+                                color: $lightorange;
+                                width: 10rem;
+                                float: left;
+                            }
+                            span{
+                                color: $darkblue;
+                                font-size: 0.8rem;
+                            }
+                        }
+                        .PictureContainer{
+
+                            .PictureDescription{
+                                width: 100%;
+                                margin-top: 1rem;
+                                border: solid 1px $darkblue;
+                            }
+                        }
+                        .ModalContainer{
+                        
+                            p{
+                                width: 100%;
+                                font-size: 0.9rem;
+                                font-weight: 400;
+                                color: $darkblue;
+                                text-align: justify;
+                                line-height: 1.5;
+                                margin-top: 1rem;
+                                font-style: italic;
+                            }
                         }
                     }
-                    .headModal{
-                        color: $lightorange;
-                        margin-bottom: 1rem;
-
-                        h2{
-                            text-transform: uppercase;
-                            font-weight: 400;
-                            color: $lightorange;
-                        }
-
-                        .PictureDescription{
-                            width: 100%;
-                            margin-top: 1rem;
-                        }
-                    }
-                    .ModalContainer{
-                        color: $darkblue;
-                        text-align: justify;
-                    }
-
                 }
-            }
             }
         }
     }
