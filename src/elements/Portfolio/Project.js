@@ -13,7 +13,7 @@ class Project extends Component {
     }
 
     render() {
-        let {name, date, category, description, picture, picturemodal} = this.props.item;
+        let {name, techno, date, category, description, picture, picturemodal} = this.props.item;
 
         return (
             <div className="projects">
@@ -31,13 +31,14 @@ class Project extends Component {
                                     </div>
                                     <div className='headModal'>
                                         <h2>{name}</h2>
-                                        <span>{date}</span>
+                                        <span>{techno}</span>
                                     </div>
                                     <div className='PictureContainer'>
                                         <img src={picturemodal} alt="Photo du projet" className="PictureDescription"></img>
                                     </div>
                                     <div className='ModalContainer'>
                                         <p>{description}</p>
+                                        <p className='dateModal'>{date}</p>
                                     </div>
                                 </div>
                             </div>
