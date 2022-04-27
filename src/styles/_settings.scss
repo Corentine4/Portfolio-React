@@ -72,6 +72,129 @@ a{
     cursor: pointer;
 }
 
+// RESPONSIVE
+
+// Mobile 700px <
+@media screen and (max-width: 700px){
+
+    .Sidebar{
+        margin: 1rem;
+
+        .Navigation{
+            margin: auto;
+            padding: .5rem 1rem !important;
+    
+            ul{
+                display: flex !important;
+                flex-direction: column;
+    
+                li{
+                    text-align: center;
+                    padding: .5rem 0rem .5rem 0rem !important;
+                }
+            }
+        }
+    }
+
+    .homeContainer{
+        margin: 1rem;
+        margin-top: 0 !important;
+        padding: 3rem 1.5rem 3rem !important;
+
+        .homeContent{
+
+            h1{
+                font-size: 2.1rem !important;
+                line-height: 4rem !important;
+            }
+            h2{
+                padding-bottom: 5rem !important;
+                font-size: 1.25rem !important;
+                line-height: 2rem !important;
+            }
+        }
+    }
+
+    .CareerContent{
+        margin: 1rem;
+        grid-template-columns: repeat(auto-fill, 355px) !important;
+        
+        .Experiences{
+            margin-top: 0 !important;
+
+            h5{
+                margin-left: 1.3rem !important;
+            }
+            h6{
+                margin-left: 1.3rem !important;
+            }
+            ul{
+                margin-left: 1.3rem !important;
+
+                li{
+                    margin-left: 1rem !important;
+                }
+            }
+        }
+
+        .Training{
+            margin-top: 0 !important;
+            margin-bottom: 1rem !important;
+
+            h5{
+                margin-left: 1.3rem !important;
+            }
+            h6{
+                margin-left: 1.3rem !important;
+            }
+            ul{
+                li{
+                    margin-left: 1.5rem !important;
+                }
+            }
+            p{
+                margin-left: 1.3rem !important;
+            }
+        }
+    }
+
+    .KnowledgesContent{
+        margin: 1rem;
+        grid-template-columns: repeat(auto-fill, 355px) !important;
+        margin-top: 0 !important;
+
+        .SoftskillsHobbys{
+            margin-bottom: 1rem !important;
+        }
+    }
+
+    .PortfolioContent{
+        margin: 1rem;
+
+        .Projects{
+            grid-template-columns: repeat(auto-fill, 360px) !important;
+
+            .projects{
+                margin-top: 0 !important;
+
+                .projectsContainer{
+                    .Projectpicture{
+                        width: 360px !important;
+                        height: 200px !important;
+                        object-fit: cover !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
 
 // RESPONSIVE 
 // @mixin verticalCenter {

@@ -20,7 +20,7 @@ class Graphism extends Component {
             <div className="Graphism">
                 <ProgressBarGraphism
                     graphism={graphism}
-                    title="Graphisme"
+                    title="Design"
                     className="graphismDisplay"
                 />
             </div>
