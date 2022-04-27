@@ -178,10 +178,28 @@ a{
                 margin-top: 0 !important;
 
                 .projectsContainer{
+                    
                     .Projectpicture{
                         width: 360px !important;
                         height: 200px !important;
                         object-fit: cover !important;
+                    }
+
+                    .showModal{
+                        width: 100% !important;
+                        left: 0 !important;
+                        top: 0 !important;
+                        border-radius: 0px !important;
+
+                        .headModal{
+                            display: flex !important;
+                            flex-direction: column !important;
+                            align-items: baseline !important;
+
+                            h2{
+                                margin-bottom: .5rem;
+                            }
+                        }
                     }
                 }
             }
