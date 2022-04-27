@@ -32,25 +32,6 @@ const Navigation = () => {
                     </li>
                 </ul>
             </div>
-            {/* <div className="socialNetwork">
-                <ul>
-                    <li>
-                        <a href="https://www.linkedin.com/in/corentine-renuart/" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Corentine4" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-github"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:renuart.corentine@gmail.com" target="_blank" rel="noopener noreferrer">
-                            <i className="far fa-envelope"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div> */}
         </div>
     );
 };

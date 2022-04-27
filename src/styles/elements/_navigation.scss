@@ -50,24 +50,24 @@
             justify-content: space-between;
             padding-right: 0.1rem;
 
-        li{ 
-            color: $white;
-            font-size: 1.5rem;
-            border-radius: 50%;
-            padding: .8rem .8rem;
-            cursor: pointer;
-
-            a{
-                color : $white;
-            }
-
-            a:visited{
+            li{ 
                 color: $white;
+                font-size: 1.5rem;
+                border-radius: 50%;
+                padding: .8rem .8rem;
+                cursor: pointer;
+
+                a{
+                    color : $white;
+                }
+
+                a:visited{
+                    color: $white;
+                }
             }
-        }
-        li:hover{
-            transform: scale(1.1, 1.1);
-        }
+            li:hover{
+                transform: scale(1.1, 1.1);
+            }
         }
     }
 }
