@@ -20,12 +20,8 @@ $font-Reem-Kufi : 'Reem Kufi', sans-serif;
 $darkblue : #000024;
 $lightblue : #6464D6;
 $lightorange : #F6A76D;
-$darkorange : #EA5B0C;
 $white: #ddd;
 $white-opacity-20 : rgba(255, 255, 255, 0.2);
-$black : #333;
-// Gradients
-$orangegradient : linear-gradient(90deg, rgba(234,91,12,1) 0%, rgba(246,167,109,1) 100%);
 
 // Variables for shadows
 // Right, bottom, opacity, color (rgba + opacity)
@@ -84,24 +80,29 @@ a{
         margin: 1rem;
 
         .Navigation{
-            margin: auto;
-            padding: .5rem 1rem !important;
+            margin: auto !important;
+            padding: .5rem 0rem 1rem 0rem !important;
     
             ul{
-                display: flex !important;
-                flex-direction: column;
-    
                 li{
                     text-align: center;
-                    padding: .5rem 0rem .5rem 0rem !important;
+                    padding-left: 2rem !important;
+                    padding-right: 2rem !important;
+                    padding: 1rem 1rem 1rem 1rem;
+
+                    span{
+                        display: none;
+                    }
                 }
             }
         }
     }
 
     .homeContainer{
-        margin: 2rem 1rem !important;
-        padding: 3rem 1.5rem 3rem !important;
+        margin: 0rem 1rem !important;
+        padding: 2.5rem 1.5rem 3rem !important;
+        width: 355px;
+        margin: auto !important;
 
         .homeContent{
 
@@ -118,7 +119,7 @@ a{
     }
 
     .CareerContent{
-        margin: 1rem;
+        margin: 0rem 1rem !important;
         grid-template-columns: repeat(auto-fill, 355px) !important;
         
         .Experiences{
@@ -182,7 +183,7 @@ a{
                 .projectsContainer{
                     
                     .Projectpicture{
-                        width: 360px !important;
+                        width: 355px !important;
                         height: 200px !important;
                         object-fit: cover !important;
                     }
