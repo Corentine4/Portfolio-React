@@ -11,7 +11,7 @@ const Training = () => {
                 <h5>Becode.org, Liège</h5>
                 <h6>Juin 2021 - Janvier 2022 (7 mois)</h6>
                 <ul>
-                    <li>HTML5, CSS3, SASS, Bootstrap, Javascript, Reactjs, Wordpress, Php, Git, Npm, Nodejs,...</li>
+                    <li>Apprentissage de l'HTML5, CSS3, SASS, Bootstrap, Javascript, Reactjs, Wordpress, Php, Git, Npm, Nodejs.</li>
                     <li>Réalisation de nombreux projets de groupe dont un projet MERN : refonte entière d'un site e-commerce.</li>
                 </ul>
             </div>
@@ -21,7 +21,6 @@ const Training = () => {
                 </h4>
                 <h5>Centre IFAPME Liège-Huy-Verviers</h5>
                 <h6>Septembre 2020 - Juin 2021</h6>
-                <p>Cours du soir afin d'apprendre le graphisme pour l'impression, le web et la 3D.</p>
             </div>
             <div className="training">
                 <h4>

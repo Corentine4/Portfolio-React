@@ -1,24 +1,21 @@
 .Sidebar{
-    border: solid 0.01rem $white-opacity-20;
-    box-shadow: $box-shadow-1, $interior-box-shadow;
     color: $white;
     font-family: $font-Roboto;
-    border-radius: $borderRadius;
     position: relative;
     display: flex;
 
     .Navigation{
         grid-area: 2;
         padding: 1rem 1rem;
-        // margin-right: 12rem;
+        margin: auto;
 
         ul{
             height: 100%;
             display: flex;
         }
         li{
-            padding: 1rem 4rem 1rem 1rem;
-            font-size: 0.9rem;
+            padding: 1rem 5rem 1rem 1rem;
+            font-size: 1rem;
             position: relative;
         }
         li:hover{
@@ -27,16 +24,13 @@
         a{
             color: $white;
         }
-        .navActive{
-            color: rgba(185, 22, 22, 0.667);
-        }
         i{
             position: absolute;
             font-size: 1rem;
         }
         span{
             // Spaces between icons and links
-            margin-left: 2rem;
+            margin-left: 1.75rem;
         }
     }
 
