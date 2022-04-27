@@ -32,7 +32,7 @@ const Navigation = () => {
                     </li>
                 </ul>
             </div>
-            <div className="socialNetwork">
+            {/* <div className="socialNetwork">
                 <ul>
                     <li>
                         <a href="https://www.linkedin.com/in/corentine-renuart/" target="_blank" rel="noopener noreferrer">
@@ -50,7 +50,7 @@ const Navigation = () => {
                         </a>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </div>
     );
 };

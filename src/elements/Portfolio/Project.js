@@ -13,13 +13,12 @@ class Project extends Component {
     }
 
     render() {
-        let {name, techno, date, category, description, picture, picturemodal} = this.props.item;
+        let {name, techno, date, category, description, picture, picturemodal, picturemodal2, picturemodal3, picturemodal4} = this.props.item;
 
         return (
             <div className="projects">
                 <div className='projectsContainer'>
                     <img className='Projectpicture' src={picture} alt="Photo du projet" onClick={this.handleDescription}></img>
-
                     {
                         this.state.showDescription && (
                             <div className='showInfos'>
@@ -34,8 +33,11 @@ class Project extends Component {
                                         <span>{techno}</span>
                                     </div>
                                     <div className='PictureContainer'>
-                                        <img src={picturemodal} alt="Photo du projet" className="PictureDescription"></img>
+                                    {picturemodal.map(imgSrc => (  
+                                        <img src={imgSrc} alt="Photo du projet" className="PictureDescription"></img>
+                                        ))}
                                     </div>
+                                  
                                     <div className='ModalContainer'>
                                         <p>{description}</p>
                                         <p className='dateModal'>{date}</p>

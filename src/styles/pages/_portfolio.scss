@@ -31,6 +31,8 @@
 
                     .Projectpicture{
                         width: 380px;
+                        height: 225px;
+                        object-fit: cover;
                         border-radius: $borderRadius;
                         cursor: pointer;
                         box-shadow: $box-shadow-1, $interior-box-shadow;
@@ -114,6 +116,12 @@
 
                                 .PictureDescription{
                                     width: 100%;
+                                    margin-top: 1rem;
+                                    border: solid 1px $darkblue;
+                                }
+
+                                .PictureMobileDescription{
+                                    height: 500px;
                                     margin-top: 1rem;
                                     border: solid 1px $darkblue;
                                 }

@@ -1,4 +1,7 @@
 .CareerContent{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 588px);
+    grid-gap: 24px;
+    max-width: 1200px;
 }
