@@ -30,7 +30,7 @@ const Otherskills = () => {
                         <i class="fas fa-thin fa-circle"></i> Français (langue maternelle)
                     </li>
                     <li>
-                        <i class="fas fa-thin fa-circle"></i> Anglais intermédiaire (en apprentissage)
+                        <i class="fas fa-thin fa-circle"></i> Anglais intermédiaire (en cours en apprentissage)
                     </li>
                     <li>
                         <i class="fas fa-thin fa-circle"></i> Bases de néerlandais

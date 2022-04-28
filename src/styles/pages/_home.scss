@@ -7,6 +7,14 @@
     border-radius: $borderRadius;
     margin-top: 2rem;
 
+    animation: blockappear 1s ease-out forwards;
+    @keyframes blockappear{
+        
+        0%{
+            transform: translate(-2%);
+        }
+    }
+
     .homeContent{
         margin: auto;
         

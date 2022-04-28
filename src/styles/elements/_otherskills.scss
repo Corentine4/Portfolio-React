@@ -7,6 +7,14 @@
     border-radius: $borderRadius;
     line-height: 1.5;
 
+    animation: blockappear 1s ease-out forwards;
+    @keyframes blockappear{
+    
+        5%{
+            transform: translate(0%);
+        }
+    }
+
         .fas{
             color: $lightblue;
             font-size: 0.9rem;

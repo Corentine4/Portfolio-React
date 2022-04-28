@@ -8,6 +8,14 @@
     line-height: 1.5;
     font-size: 0.9rem;
 
+    animation: blockappear 1s ease-out forwards;
+    @keyframes blockappear{
+        
+        5%{
+            transform: translate(0%);
+        }
+    }
+
     h3{
         color: $lightorange;
         font-size: 20px;
