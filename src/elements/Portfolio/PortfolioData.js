@@ -11,6 +11,17 @@ export const PortfolioData = [
     },
     {
         id: 2,
+        name: "Productivity",
+        techno: "Sass, Reactjs",
+        date: "2021",
+        category: "Webdesign",
+        lien: "https://github.com/Corentine4/Productivity-application",
+        description: "Création d'un site web possèdant une Todo list et un Pomodoro afin d'augmenter sa productivité. Objectif : apprendre Reactjs.",
+        picture: "./images/Productivityapplication.png",
+        picturemodal: ["./images/Productivityapplicationmodal.png"]
+    },
+    {
+        id: 3,
         name: "Maison DC",
         techno: "Adobe XD / Projet MERN",
         date: "2021",
