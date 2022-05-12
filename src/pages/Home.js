@@ -9,7 +9,7 @@ const Home = () => {
             <div className="homeContainer">
                 <div className="homeContent">
                     <h1>Bienvenue sur le portfolio de <span>Corentine Renuart,</span></h1>
-                    <h2>Junior UI/UX - Webdesigner</h2>
+                    <h2>Junior UI/UX - Frontend developer</h2>
                     <div className="uploadcv">
                         <a href="./images/CV-Corentine-Renuart.pdf" target='_blank'>
                             Télécharger le CV en pdf

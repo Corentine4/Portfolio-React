@@ -16,7 +16,7 @@ const Experiences = () => {
             </div>
             <div className="experiences">
                 <h4>
-                    <i class="fas fa-thin fa-circle"></i> Stage UI/UX - Front-end
+                    <i class="fas fa-thin fa-circle"></i> Stage Frontend developer / UI/UX
                 </h4>
                 <span className="Timeline"></span>
                 <h5>IOT Factory, Bruxelles</h5>
