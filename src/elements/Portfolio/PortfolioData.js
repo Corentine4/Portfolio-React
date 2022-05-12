@@ -16,7 +16,7 @@ export const PortfolioData = [
         date: "2021",
         category: "Webdesign",
         lien: "https://github.com/Corentine4/Productivity-application",
-        description: "Création d'un site web possèdant une Todo list et un Pomodoro afin d'augmenter sa productivité. Objectif : apprendre Reactjs.",
+        description: "Création d'un site web possèdant une Todo list et un Pomodoro afin d'augmenter sa productivité. Objectif : apprendre Reactjs. Projet toujours en cours : le style du Pomodoro doit être ajouté.",
         picture: "./images/Productivityapplication.png",
         picturemodal: ["./images/Productivityapplicationmodal.png"]
     },
