@@ -5,7 +5,7 @@ export const PortfolioData = [
         techno: "Adobe XD / Pug, Sass, Bootstrap, Angularjs",
         date: "2022",
         category: "Webdesign",
-        description: "Refonte de l'application Web d'IOT Factory, une entreprise bruxelloise spécialisée dans l'internet des objets. Comme il n'y a pas de webdesigner dans l'équipe, j'ai été chargée de l'amélioration du design et surtout de l'expérience utilisateur. A titre de comparaison, la troisième photo est un screenshot de l'interface avant modifications. ",
+        description: "Refonte de l'application Web d'IOT Factory, une entreprise bruxelloise spécialisée dans l'internet des objets. Comme il n'y a pas de webdesigner dans l'équipe, j'ai été chargée de l'amélioration du design et surtout de l'expérience utilisateur. J'ai ensuite codé les solutions apportées en Pug, Sass, Bootstrap et Angularjs. A titre de comparaison, la troisième photo est un screenshot de l'interface avant modifications. ",
         picture: "./images/IOTFactory.png",
         picturemodal: ["./images/IOTFactory2.png", "./images/IOTFactory3.png", "./images/IOTFactory4.png"] 
     },
